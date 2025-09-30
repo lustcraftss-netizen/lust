@@ -47,7 +47,7 @@ const generateWhatsAppMessage = () => {
 
   const handleWhatsAppCheckout = () => {
     const message = generateWhatsAppMessage();
-    const phoneNumber = "+923470522542"; // Replace with your WhatsApp number (e.g., "923001234567")
+    const phoneNumber = "+923281359466"; // Replace with your WhatsApp number (e.g., "923001234567")
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     
     window.open(whatsappUrl, '_blank');

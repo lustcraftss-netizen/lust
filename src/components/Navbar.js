@@ -26,7 +26,7 @@ export default function Navbar() {
     setActiveCategory(activeCategory === index ? null : index);
   };
 
-  const phoneNumber = "+923047110044"; // replace with your WhatsApp number
+  const phoneNumber = "+923281359466"; // replace with your WhatsApp number
   const message = "Hello, I'm interested in your products!"; // default message
 
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
