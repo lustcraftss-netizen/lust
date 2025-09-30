@@ -1,4 +1,4 @@
-export default {
+const newsletter = {
   name: "newsletter",
   title: "Newsletter Subscribers",
   type: "document",
@@ -17,3 +17,6 @@ export default {
     },
   ],
 };
+
+
+export default newsletter;

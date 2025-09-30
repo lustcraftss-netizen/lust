@@ -1,4 +1,4 @@
-export default {
+const category =  {
   name: "category",
   title: "Category",
   type: "document",
@@ -7,3 +7,5 @@ export default {
     { name: "slug", type: "slug", title: "Slug", options: { source: "title" } },
   ],
 };
+
+export default category;
