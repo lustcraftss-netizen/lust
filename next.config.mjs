@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    turbo: false, // disable turbopack
+    turbo: false, // disable turbopack to avoid Rust panic
   },
-    images: {
+  images: {
     remotePatterns: [
       {
         protocol: "https",
