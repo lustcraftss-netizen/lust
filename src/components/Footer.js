@@ -151,19 +151,19 @@ export default function Footer() {
                 <p className="font-medium">Company</p>
                 <ul className="mt-6 space-y-4 text-[15px]">
                   <li>
-                    <a href="/" className="hover:opacity-75">
+                    <Link href="/" className="hover:opacity-75">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/" className="hover:opacity-75">
+                    <Link href="/" className="hover:opacity-75">
                       Production
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/" className="hover:opacity-75">
+                    <Link href="/" className="hover:opacity-75">
                       Home
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
