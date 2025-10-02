@@ -38,7 +38,7 @@ export default function Footer() {
          {/* ✅ Fix added here */}
       <footer className="bg-black text-white">
         <motion.div
-          className="mx-auto w-full max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:px-8"
+          className=" w-full  space-y-8 px-4 py-16 sm:px-6 lg:px-8"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

@@ -41,26 +41,7 @@ export default function Hero2() {
       </div>
 
       {/* Bottom scrolling text */}
-      <div className="overflow-hidden whitespace-nowrap bg-black py-2 text-white flex items-center">
-        <motion.div
-          className="inline-flex text-[15px] font-light"
-          initial={{ x: 0 }} // ✅ same hydration fix
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 15,
-            ease: "linear",
-          }}
-        >
-          <span className="block">
-            ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE •
-          </span>
-          <span className="block">
-            ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE • ★ LUXURY • ROYALTY • ELEGANCE •
-          </span>
-        </motion.div>
-      </div>
+   
 
       <div className=" hidden md:grid grid-cols-3 ">
         <div className=" h-[500px] flex flex-col justify-center gap-y-4 px-4">

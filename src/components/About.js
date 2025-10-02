@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function AboutUs() {
   return (
     <div className="bg-white" id="about">
-    <div className="mx-auto bg-black text-white flex flex-col w-full max-w-6xl px-6 pt-15 pb-10">
+    <div className=" bg-black text-white flex flex-col w-full 2xl:px-20  px-6 pt-15 pb-10">
       {/* Top-left About Us heading */}
       <motion.h2
         initial={{ opacity: 0, x: -100 }} // start hidden, from left

@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="w-full max-w-7xl shadow-md flex bg-white text-black items-center  justify-between mx-auto md:px-8 px-4 md:py-4  py-7 relative">
+      <div className="w-full  shadow-md flex bg-white text-black items-center  justify-between  md:px-8 px-4 md:py-4  py-7 relative">
         {/* Desktop Nav */}
         <div className="cabin hidden md:flex items-center justify-center  gap-x-8 cursor-pointer transition-all">
           <div className="flex items-center gap-x-1 relative group hover:font-semibold">

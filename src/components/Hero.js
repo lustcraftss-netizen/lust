@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Navbar */}
       <Navbar />
 
-      <div className="flex w-full text-black max-w-7xl h-[500px]  mt-5 2xl:mt-8 mx-auto px-4 md:px-8">
+      <div className="flex w-full text-black  h-[500px]  mt-5 2xl:mt-8  px-4 md:px-8">
         {isMounted && (
           <motion.div
             className="relative w-full h-[500px]  overflow-hidden"
@@ -46,7 +46,7 @@ export default function Hero() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, amount: 0.8 }}
-            className="md:flex text-black w-full hidden max-w-7xl items-center text-[45px] font-light cabin mt-6 2xl:mt-7 mx-auto px-4 md:px-8"
+            className="md:flex text-black w-full hidden  items-center text-[45px] font-light cabin mt-6 2xl:mt-7  px-4 md:px-8"
           >
             <p>YOUR NEW FAVOURITE HARNESS, MASTER.</p>
           </motion.div>
@@ -64,7 +64,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
-            className="flex w-full barlow max-w-7xl items-center text-[15px] mt-3 2xl:mt-4 mx-auto px-4 md:px-8"
+            className="flex w-full barlow  items-center text-[15px] mt-3 2xl:mt-4  px-4 md:px-8"
           >
             <p className="md:w-[50%] cabin text-black pb-10">
               Nothing defines elegance like handcrafted leather and steel.
