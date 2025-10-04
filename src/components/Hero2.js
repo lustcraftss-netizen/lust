@@ -103,7 +103,7 @@ LustCraft is a manufacturing company dedicated to producing high-quality BDSM pr
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           className="font-extralight pt-2 text-gray-600 cabin text-[12px]">
-LustCraft is a manufacturing company dedicated to producing high-quality BDSM products with a strong focus on safety, durability, and craftsmanship. Every item is carefully designed and tested to ensure comfort, reliability, and long-lasting performance. From restraints and paddles to custom-designed accessories, LustCraft combines premium materials with modern manufacturing techniques to create products that meet the highest industry standards. The company values trust, consent, and responsibility, making it a dependable choice for customers who seek both quality and peace of mind.</motion.p>
+LustCraft is a manufacturing company dedicated to producing high-quality BDSM products with a strong focus on safety, durability, and craftsmanship. Every item is carefully designed and tested to ensure comfort, reliability, and long-lasting performance. From restraints and paddles to custom-designed accessories.</motion.p>
       </div>
 
 
