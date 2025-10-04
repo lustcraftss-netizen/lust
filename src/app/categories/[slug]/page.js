@@ -16,7 +16,7 @@ export default async function CategoryPage({ params }) {
     <div className="overflow-x-hidden bg-[#e8e8e8] min-h-screen flex flex-col">
         <Navbar/>
         <div
-        className="text-2xl flex items-center justify-start w-full cabin text-black mt-15 px-2 md:px-6  uppercase       border-gray-800 "
+        className="text-2xl flex items-center justify-start w-full cabin text-black mt-5 px-2 md:px-6  uppercase       border-gray-800 "
         >
           <h1>{slug}</h1>
         </div>

@@ -15,7 +15,7 @@ export default function Single({product}) {
 
   return (
     <div className=" bg-white cabin text-black flex items-center justify-center p-6">
-      <div className="grid md:grid-cols-2 gap-10 my-[50px] max-w-5xl w-full">
+      <div className="grid md:grid-cols-2 gap-10 my-[25px] max-w-5xl w-full">
         {/* Product Image (mobile first) */}
         <div className="flex items-center border-2 justify-center order-1 md:order-2">
           <Image

@@ -17,46 +17,46 @@ const products = [
     id: 1,
     brand: "Lustcraft",
     gender: "Both",
-    name: "Body harnesses",
+    name: "Handcuffs",
     price: "£30.00",
-    link: "/categories/body-harnesses",
-    image: "/images/collarsharness/body_harness.png" ,
+    link: "/categories/handcuffs",
+    image: "/images/category/handcuffs.jpg" ,
   },
   {
     id: 2,
     brand: "INOV8",
     gender: "Women's",
-    name: "Thigh & leg harnesses",
+    name: "Spreaders",
     price: "£50.00",
-    link: "/categories/thigh-and-leg-harnesses",
-    image: "/images/collarsharness/thigh_harness.png",
+    link: "/categories/spreaders-bars-belts-cuffs",
+    image: "/images/category/spreaders.jpg",
   },
   {
     id: 3,
     brand: "Montane",
     gender: "Men's",
-    name: "Paddles",
+    name: "Floggers",
     price: "£75.00",
-    link: "/categories/paddles",
-    image: "/images/impactplaygear/paddle.jpg",
+    link: "/categories/floggers",
+    image: "/images/category/flogger.jpg",
   },
   {
     id: 4,
     brand: "Patagonia",
     gender: "Women's",
-    name: "Floggers",
+    name: "Body harnesses",
     price: "£90.00",
-    link: "/categories/floggers",
-    image: "/images/impactplaygear/floggers.png",
+    link: "/categories/body-harnesses",
+    image: "/images/category/body-harness.jpg",
   },
   {
     id: 5,
     brand: "Patagodsnia",
     gender: "Women's",
-    name: "Whips",
+    name: "Slave Belts",
     price: "£96.00",
-    link: "/categories/whips",
-    image: "/images/impactplaygear/whip.png",
+    link: "/categories/slave-belts",
+    image: "/images/category/slavebelts.jpg",
   },
 ];
 
@@ -91,7 +91,7 @@ export default function ProductCarousel() {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="text-2xl cabin tracking-wide mb-6"
+      className="text-2xl cabin tracking-wide bold mb-6"
     >
       Featured Products
     </motion.h2>

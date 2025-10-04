@@ -16,7 +16,7 @@ export default function CollarHarness() {
       <Navbar />
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-7xl mx-auto px-4 md:px-2 py-4 md:py-10 gap-y-6 md:gap-y-6 md:gap-x-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full  mx-auto px-4 md:px-2 py-4 md:py-10 gap-y-6 md:gap-y-6 md:gap-x-4">
         {/* 1 */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -129,22 +129,7 @@ export default function CollarHarness() {
       </div>
 
       {/* Bottom Section */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.9 }}
-        className="flex flex-col cinzel md:flex-row justify-between max-w-7xl mx-auto py-4 gap-4"
-      >
-        <div className="relative w-full aspect-[16/9] overflow-hidden">
-          <Image
-            src={body_harness}
-            alt="Body harnesses"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
-      </motion.div>
+    
 
       <Footer />
     </div>

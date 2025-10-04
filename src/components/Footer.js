@@ -62,7 +62,7 @@ export default function Footer() {
               {/* Contact Info */}
               <div className="mt-6 space-y-2 barlow text-white text-sm">
                 <p>Email: lustcraftss@gmail.com</p>
-                <p>Phone: +92 304 7110044</p>
+                <p>Phone: +92 328 1359466</p>
                 <p>Address: Imam Sahib, Haji pura, Sialkot, Punjab </p>
               </div>
 

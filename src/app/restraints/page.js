@@ -16,7 +16,7 @@ export default function Restraints() {
       <Navbar />
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-7xl mx-auto px-2 py-4 gap-y-6 md:gap-y-2 md:gap-x-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full  mx-auto px-2 py-4 gap-y-6 md:gap-y-2 md:gap-x-4">
 
         {/* 1 */}
         <motion.div
