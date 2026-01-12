@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
 
-   const phoneNumber = "+923047110044"; // replace with your WhatsApp number
+   const phoneNumber = "+923000977369"; // replace with your WhatsApp number
   const message = "Hello, I'm interested in your products!"; // default message
 
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -62,7 +62,7 @@ export default function Footer() {
               {/* Contact Info */}
               <div className="mt-6 space-y-2 barlow text-white text-sm">
                 <p>Email: lustcraftss@gmail.com</p>
-                <p>Phone: +92 328 1359466</p>
+                <p>Phone: +92 3000 977369</p>
                 <p>Address: Imam Sahib, Haji pura, Sialkot, Punjab </p>
               </div>
 
