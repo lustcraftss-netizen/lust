@@ -117,9 +117,9 @@ export default function Navbar() {
 
       {/* Mobile Dropdown */}
       <div
-        className={`md:hidden bg-white cabin text-black overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? "max-h-screen py-6" : "max-h-0"
-        }`}
+       className={`md:hidden fixed top-[80px] left-0 w-full z-40 bg-white cabin text-black overflow-hidden transition-all duration-300 ease-in-out ${
+    isOpen ? "max-h-screen py-6" : "max-h-0"
+  }`}
       >
         <div className="flex flex-col gap-y-4 px-6 cabin">
           <p className="font-semibold mb-4">Shop</p>
