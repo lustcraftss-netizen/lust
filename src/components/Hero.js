@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import g3 from "../../public/images/hero/g3.jpg";
+import g3 from "../../public/images/hero/main.jpg";
 
 
 import Navbar from "./Navbar";
